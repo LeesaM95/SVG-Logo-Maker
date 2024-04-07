@@ -1,4 +1,7 @@
 {
+    "name": "svglogomaker",
+    "version": "1.0.0",
+    "main": "index.js",
     "dependencies": {
         "fs": "^0.0.1-security",
         "inquirer": "^8.2.4"
@@ -7,6 +10,7 @@
         "jest": "^29.7.0"
     },
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "start": "node index/index.js"
     }
 }
